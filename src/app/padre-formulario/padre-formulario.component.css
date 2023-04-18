@@ -1,0 +1,59 @@
+/* Estilos para el contenedor del formulario */
+.container {
+  max-width: 400px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor en la página */
+  padding: 20px; /* Agregar espacio de relleno al contenedor */
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Fmadera-gris&psig=AOvVaw0D5UwtkN08gv_-ytqKadug&ust=1681903010411000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNC_roans_4CFQAAAAAdAAAAABAE'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+}
+
+/* Estilos para etiquetas label */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333; /* Color de texto */
+}
+
+/* Estilos para inputs de tipo text y number */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%; /* Ancho del input al 100% del contenedor */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc; /* Borde inferior de color gris claro */
+  outline: none; /* Quitar el contorno en el enfoque */
+  transition: border-color 0.3s ease; /* Transición suave en el cambio de color de borde */
+  background-color: #f8f8f8; /* Color de fondo de los inputs */
+  color: #333; /* Color de texto */
+}
+
+/* Estilos para el botón de tipo submit */
+input[type="submit"] {
+  padding: 10px 20px; /* Agregar más espacio de relleno horizontal */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color de texto del botón */
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px; /* Aumentar el margen inferior */
+  transition: background-color 0.3s ease; /* Transición suave en el cambio de color de fondo */
+}
+
+/* Cambiar el estilo del botón al pasar el cursor sobre él */
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+/* Estilos para el componente hijo 'app-hijo-lista' */
+app-hijo-lista {
+  margin-top: 30px; /* Aumentar el margen superior */
+}
+
+/* Estilos para los options del select */
+select option {
+  background-color: #f8f8f8; /* Color de fondo de las opciones del select */
+  color: #333; /* Color de texto de las opciones del select */
+}

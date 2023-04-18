@@ -1,0 +1,21 @@
+<hr>
+
+<app-hijo-lista2 (pedidopedido)="anadirpedido($event)"></app-hijo-lista2>
+<br>
+<table class="tabla-productos">
+  <tr class="encabezado">
+      <th>Id</th>
+      <th>Nombre</th>
+      <th>Cantidad</th>
+      <th>Precio</th>
+      <th>Tipo de alimentos</th>
+  </tr>
+  <tr class="fila-producto" *ngFor="let pedido of pedido1">
+      <td>{{pedido.idPedido}}</td>
+      <td>{{pedido.idCliente}}</td>
+      <td>{{pedido.nombreCliente}}</td>
+      <td>{{pedido.totalProducto}}</td>
+      <td>{{pedido.importeTotal}}</td>
+  </tr>
+</table>
+<br><br><br>

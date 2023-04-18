@@ -1,0 +1,40 @@
+/* Estilo para la línea horizontal */
+
+hr {
+  border: none;
+  border-top: 2px solid #007bff; /* Cambia el color y grosor de la línea horizontal aquí */
+  margin: 20px 0;
+}
+
+
+/* Estilo para la tabla de productos */
+.tabla-productos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el encabezado de la tabla */
+.encabezado th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilo para las filas de productos */
+.fila-producto td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilo para las filas impares de productos */
+.fila-producto:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Estilo para las filas pares de productos */
+.fila-producto:nth-child(even) {
+  background-color: #fff;
+}
