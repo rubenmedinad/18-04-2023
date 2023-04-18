@@ -1,39 +1,43 @@
-/* CSS */
-.tabla-productos {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-/* CSS */
-label {
-  width: 120px; /* Ancho del label */
-  display: inline-block;
-  text-align: right;
-  margin-right: 10px; /* Espacio entre el label y el input */
+.container {
+  max-width: 400px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor en la página */
+  padding: 20px; /* Agregar espacio de relleno al contenedor */
+  background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
 }
 
-input[type="text"],
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333; /* Color de texto */
+}
+
+input[type="string"],
 input[type="number"],
 select {
-  width: 200px; /* Ancho del input */
+  width: 100%; /* Ancho del input al 100% del contenedor */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc; /* Borde inferior de color gris claro */
+  outline: none; /* Quitar el contorno en el enfoque */
+  transition: border-color 0.3s ease; /* Transición suave en el cambio de color de borde */
+  background-color: #f8f8f8; /* Color de fondo de los inputs */
+  color: #333; /* Color de texto */
 }
-
-select {
-  width: 200px; /* Ancho del input */
-}
-.encabezado th {
-  background-color: #f8f8f8;
-  color: #333;
+input[type="submit"] {
+  padding: 10px 20px; /* Agregar más espacio de relleno horizontal */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color de texto del botón */
   font-weight: bold;
-  padding: 10px;
-  text-align: left;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px; /* Aumentar el margen inferior */
+  transition: background-color 0.3s ease; /* Transición suave en el cambio de color de fondo */
 }
-
-.fila-producto td {
-  border-bottom: 1px solid #ddd;
-  padding: 10px;
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Cambiar el color de fondo al pasar el cursor */
 }
-
-.fila-producto:hover {
-  background-color: #f5f5f5;
+app-padre-formulario2 {
+  margin-top: 30px; /* Aumentar el margen superior */
 }

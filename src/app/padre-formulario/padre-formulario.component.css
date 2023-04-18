@@ -16,7 +16,7 @@ label {
 }
 
 /* Estilos para inputs de tipo text y number */
-input[type="text"],
+input[type="string"],
 input[type="number"],
 select {
   width: 100%; /* Ancho del input al 100% del contenedor */
